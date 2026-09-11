@@ -5,7 +5,7 @@ services:
     branch: main
     buildCommand: ./scripts/build-site.sh
     staticPublishPath: ./dist
-    autoDeployTrigger: checksPass
+    autoDeployTrigger: off
     previews:
       generation: manual
     headers:

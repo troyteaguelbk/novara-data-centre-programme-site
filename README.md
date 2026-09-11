@@ -14,3 +14,6 @@ python3 scripts/verify-site.py
 
 The deployed site is intentionally marked `noindex, nofollow`. That reduces
 discovery but does not make the site private.
+
+Render is connected to this repository through its public Git URL, so releases
+are deployed manually from an exact reviewed commit after the build checks pass.
