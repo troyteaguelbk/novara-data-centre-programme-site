@@ -1,0 +1,5 @@
+index.html
+styles.css
+site.js
+robots.txt
+assets/novara-logo.png
