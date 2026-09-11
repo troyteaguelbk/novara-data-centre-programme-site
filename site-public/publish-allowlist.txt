@@ -1,5 +1,5 @@
 index.html
 styles.css
-site.js
+programme.js
 robots.txt
 assets/novara-logo.png
