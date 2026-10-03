@@ -94,7 +94,7 @@ for pattern in secret_patterns:
     if re.search(pattern, combined):
         fail(f"possible credential in public build: {pattern}")
 
-required_phrases = ["350 MW", "Phase 0", "PowerCo", "EquipmentCo", "governed data room"]
+required_phrases = ["programme on hold", "not currently pursuing ownership", "Casino is no longer under consideration", "brokerage and financing advice for client-owned projects"]
 for phrase in required_phrases:
     if phrase not in page:
         fail(f"required programme statement is missing: {phrase}")
